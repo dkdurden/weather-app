@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --degrees: 0deg;
+}
+
+.weather-card {
+  width: 500px;
+}
+
+.weather-card__details p {
+  margin: 0;
+}
+
+.loading {
+  min-height: 400px;
+}
+
+.loading--image {
+}
+
+.direction {
+  display: inline-block;
+  transform: rotate(var(--degrees));
+  margin-left: 0.5rem;
+}
